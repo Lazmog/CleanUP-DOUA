@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>Setting</title>
+</head>
+<body>
+    <section id="content">
+        <div class="donate">
+            <div class="info-donate">
+                <div>
+                    <p>Welcome</p>
+                    <p class="p-info">Thank you for considering a donation to our cause. Your generosity is greatly appreciated and can make a significant impact.
+                        Please note that making a donation is entirely voluntary. We are grateful for any contribution you choose to make, no matter the amount. Your support helps us continue our work and make a difference.
+                        Thank you for your kindness and support.</p>
+                </div>
+
+                <form action="index.html" method="get">
+                    <button type="submit">Go back</button>
+                </form>
+            </div>
+            
+            <div class="make_donate">
+
+                <div class="information-donate">
+                    <p>Make a donation</p>
+                    <p>Thank you for your gesture</p>
+                </div>
+                
+                <form action="" method="get">
+                    <div class="prevention-name"><label for="nom">(To remain anonymous, don't put anything in this box.)</label><input id="nom" placeholder="Name" name="nom-setting" type="text"></div>
+                    <input id="email" placeholder="Mail" name="email-setting" type="email" required>
+                    <input id="montant" placeholder="Amount" type="number" name="amount-donate" min="0" required>
+                    <textarea id="message" maxlength="500" placeholder="Please write a message if you wish" name="Message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send a donation</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>

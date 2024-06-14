@@ -1,0 +1,208 @@
+.va-te-doucher{
+    height: 100%;
+    margin: 0;
+}
+
+.va-te-doucher p{
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: "Poetsen One", sans-serif;
+    background-image: url("img/background_body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+.donate{
+    display: flex;
+    border: 0px solid;
+    height: 33vw;
+    width: 50vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 0 20px 10px rgba(133, 130, 130, 0.5);
+    
+}
+
+.info-donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+    border-top-left-radius: 0.5vw; border-bottom-left-radius: 0.5vw;
+    background-color: #B0BF54;
+    gap: 1.5vw;
+    background-image: url('img/img_nature_donate.png');
+    background-repeat: no-repeat;
+    background-size: 220%;
+}
+
+.info-donate p{
+    color: white;
+    margin: 0%;
+}
+
+.info-donate div:first-child p:first-child{
+    font-size: 3.5vw;
+}
+
+.info-donate div:first-child p:nth-child(2){
+    font-size: 0.9vw;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.info-donate div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.info-donate form button{
+    width: 9.1vw;
+    height: 2vw;
+    color: #ffffff;
+    border: 0.1vw solid rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-size: 1vw;
+    background-color: #B0BF54;
+    cursor: pointer;
+}
+
+.info-donate form button:hover{
+    background-color: #687528;
+    border: 0.1vw solid rgb(255, 255, 255);
+    color: white;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.make_donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+    height: 100%;
+    border-top-right-radius: 0.5vw; border-bottom-right-radius: 0.5vw;
+    background-color: #ffffff;
+    gap: 1.5vw;
+    background-image: url('img/img_eau_donate.webp');
+    background-repeat: no-repeat;
+}
+
+.info-donate p, .make_donate p{
+    margin: 0%;
+}
+
+.make_donate div:first-child p:first-child{
+    font-size: 3vw;
+    color: #488bc1;
+}
+
+.make_donate div:first-child p:nth-child(2){
+    font-size: 0.7vw;
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+}
+
+.make_donate .information-donate{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.make_donate div:nth-child(2){
+    display: flex;
+    gap: 4vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.make_donate form input{
+    width: 20.8vw;
+    height: 2vw;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    font-size: 0.88vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    text-indent: 0.4vw;
+}
+
+.make_donate form input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.make_donate form button{
+    width: 9.1vw;
+    height: 2vw;
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    font-size: 1vw;
+    color: #ffffff;
+    background-color: #a1ddf7;
+    cursor: pointer;
+}
+
+textarea{
+    width: 20.8vw;
+    height: 10vw;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    font-size: 0.88vw;
+    background-color: transparent;
+    resize: none;
+    text-indent: 0.4vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px); /* Background blur effect */
+}
+
+textarea::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+.prevention-name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+
+
+.prevention-name label{
+    font-size: 0.65vw;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.make_donate form button:hover{
+    background-color: #478ac0;
+    transition: 1s;
+    transform: scale(1.1);
+}
